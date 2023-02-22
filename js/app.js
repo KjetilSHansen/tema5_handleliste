@@ -29,7 +29,7 @@ let tasks = []
 
 function renderList() {
 
-    //Gjør at man ikke kan trykke add når det ikke er tekst i input - hei:
+    //Gjør at man ikke kan trykke add når det ikke er tekst i input:
     if (inputElement.value !== '') {
 
         // Lager liElement:
